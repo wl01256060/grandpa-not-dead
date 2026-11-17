@@ -60,7 +60,7 @@ export default withMermaid(defineConfig({
           text: '檢核與評分',
           items: [
             { text: '檢核關卡', link: '/1-preproduction/gate' },
-            { text: '2026-11-17 首次檢核', link: '/1-preproduction/reviews/2026-11-17' },
+            { text: '最新檢核結果（2026-11-17）', link: '/1-preproduction/reviews/2026-11-17' },
             {
               text: '框架總覽',
               link: '/1-preproduction/frameworks/',
