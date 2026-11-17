@@ -33,7 +33,7 @@ features:
 | 最近一次機制評分 | 2026-11-17，六個框架中有 3 個低於 3 分，**尚未通過** |
 | 最大的問題 | 玩家之間互動太少、每天流程重複、缺乏高潮 |
 
-詳細見 [階段 1 檢核關卡](/1-preproduction/gate) 和 [首次檢核報告](/1-preproduction/reviews/2026-11-17)。
+詳細見 [階段 1 檢核關卡](/1-preproduction/gate) 和 [檢核報告](/1-preproduction/reviews/2026-11-17)。
 
 ## 最近的決策
 
