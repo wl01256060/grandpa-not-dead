@@ -1,10 +1,11 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
 // 上傳到 GitHub 後，把 OWNER 與 REPO 換成實際的帳號與 repo 名稱
 const OWNER = 'wl01256060'
 const REPO = 'grandpa-not-dead'
 
-export default defineConfig({
+export default withMermaid(defineConfig({
   lang: 'zh-TW',
   title: '爺爺還沒死',
   description: '《爺爺還沒死》遊戲開發計畫文件',
@@ -15,8 +16,7 @@ export default defineConfig({
       { text: '總覽', link: '/' },
       { text: '階段 1 前製', link: '/1-preproduction/' },
       { text: '階段 2 製作', link: '/2-production/' },
-      { text: '階段 3 行銷與上市', link: '/3-marketing/' },
-      { text: '決策紀錄', link: '/decisions/' }
+      { text: '階段 3 行銷與上市', link: '/3-marketing/' }
     ],
     sidebar: {
       '/1-preproduction/': [
@@ -69,4 +69,4 @@ export default defineConfig({
     docFooter: { prev: '上一頁', next: '下一頁' },
     lastUpdatedText: '最後更新'
   }
-})
+}))
