@@ -12,7 +12,7 @@
 
 - **小修改**：在網站任一頁按「在 GitHub 上編輯此頁」，直接修改後送出。
 - **大改動**：開分支修改，再發 Pull Request 讓其他人審核。
-- **討論**：開 GitHub Issue。有結論後，寫進 `docs/decisions/`。
+- **討論**：開 GitHub Issue。有結論後，更新到相關頁面。
 
 ## 在本機預覽
 
@@ -46,8 +46,7 @@ docs/
 │  ├─ reviews/         # 檢核報告
 │  └─ gate.md          # 階段 1 檢核關卡
 ├─ 2-production/       # 階段 2：製作（框架）
-├─ 3-marketing/        # 階段 3：行銷與上市（框架）
-└─ decisions/          # 決策紀錄
+└─ 3-marketing/        # 階段 3：行銷與上市（框架）
 skills/
 ├─ game-design-review/ # 遊戲機制檢核評分 skill
 └─ marketing-review/   # 行銷檢核 skill（待建立）
