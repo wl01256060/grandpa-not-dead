@@ -43,9 +43,7 @@ export default defineConfig({
           text: '設計內容',
           items: [
             { text: '世界觀', link: '/1-preproduction/world/' },
-            { text: '王大富', link: '/1-preproduction/world/grandpa' },
-            { text: '五位繼承人', link: '/1-preproduction/world/heirs' },
-            { text: '家族律師', link: '/1-preproduction/world/lawyer' },
+            { text: '角色設定', link: '/1-preproduction/world/characters' },
             { text: '遊戲機制規格', link: '/1-preproduction/mechanics/' },
             { text: '內容庫', link: '/1-preproduction/content/' },
             { text: '美術方向', link: '/1-preproduction/art/' },
