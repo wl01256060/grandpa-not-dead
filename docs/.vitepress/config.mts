@@ -46,6 +46,8 @@ export default withMermaid(defineConfig({
             { text: '角色設定', link: '/1-preproduction/world/characters' },
             { text: '遊戲機制規格', link: '/1-preproduction/mechanics/' },
             { text: '內容庫', link: '/1-preproduction/content/' },
+            { text: '開場與七天劇情', link: '/1-preproduction/content/story' },
+            { text: '爺爺反應與台詞', link: '/1-preproduction/content/lines' },
             { text: '美術方向', link: '/1-preproduction/art/' },
             { text: '技術選型', link: '/1-preproduction/tech/' },
             { text: '簡易模型試玩', link: '/1-preproduction/prototype/' }
