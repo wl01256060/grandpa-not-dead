@@ -22,22 +22,7 @@ export default withMermaid(defineConfig({
       '/1-preproduction/': [
         {
           text: '階段 1｜前製',
-          items: [
-            { text: '階段總覽', link: '/1-preproduction/' },
-            { text: '檢核關卡', link: '/1-preproduction/gate' }
-          ]
-        },
-        {
-          text: '設計框架與評分',
-          items: [
-            { text: '框架總覽', link: '/1-preproduction/frameworks/' },
-            { text: 'MDA', link: '/1-preproduction/frameworks/mda' },
-            { text: '核心循環', link: '/1-preproduction/frameworks/core-loop' },
-            { text: '形式元素', link: '/1-preproduction/frameworks/formal-elements' },
-            { text: '動詞與互動矩陣', link: '/1-preproduction/frameworks/verbs-interactions' },
-            { text: '情緒曲線', link: '/1-preproduction/frameworks/emotion-curve' },
-            { text: '經濟與平衡', link: '/1-preproduction/frameworks/economy' }
-          ]
+          items: [{ text: '階段總覽', link: '/1-preproduction/' }]
         },
         {
           text: '設計內容',
@@ -72,9 +57,23 @@ export default withMermaid(defineConfig({
           ]
         },
         {
-          text: '檢核報告',
+          text: '檢核與評分',
           items: [
-            { text: '2026-11-17 首次檢核', link: '/1-preproduction/reviews/2026-11-17' }
+            { text: '檢核關卡', link: '/1-preproduction/gate' },
+            { text: '2026-11-17 首次檢核', link: '/1-preproduction/reviews/2026-11-17' },
+            {
+              text: '框架總覽',
+              link: '/1-preproduction/frameworks/',
+              collapsed: true,
+              items: [
+                { text: 'MDA', link: '/1-preproduction/frameworks/mda' },
+                { text: '核心循環', link: '/1-preproduction/frameworks/core-loop' },
+                { text: '形式元素', link: '/1-preproduction/frameworks/formal-elements' },
+                { text: '動詞與互動矩陣', link: '/1-preproduction/frameworks/verbs-interactions' },
+                { text: '情緒曲線', link: '/1-preproduction/frameworks/emotion-curve' },
+                { text: '經濟與平衡', link: '/1-preproduction/frameworks/economy' }
+              ]
+            }
           ]
         }
       ]
