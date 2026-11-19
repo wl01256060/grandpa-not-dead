@@ -1,0 +1,34 @@
+/* 改動標記：<span class="chg">新增或修改</span>、<del class="rm">移除</del> */
+:root {
+  --chg-bg: #fff3c4;
+  --chg-fg: #7a4b00;
+  --rm-fg: #b42318;
+}
+
+.dark {
+  --chg-bg: #4a3a0a;
+  --chg-fg: #ffd978;
+  --rm-fg: #ff8a80;
+}
+
+.vp-doc .chg {
+  background: var(--chg-bg);
+  color: var(--chg-fg);
+  border-radius: 3px;
+  padding: 0 3px;
+}
+
+.vp-doc del.rm {
+  color: var(--rm-fg);
+  text-decoration-thickness: 2px;
+}
+
+.vp-doc .chg-legend {
+  font-size: 14px;
+  border-left: 4px solid var(--chg-fg);
+  background: var(--chg-bg);
+  color: var(--chg-fg);
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin: 16px 0;
+}
