@@ -42,6 +42,16 @@
 
 能力與秘密任務見 [遊戲機制規格](../mechanics/)，整體美術風格見 [美術方向](../art/)。
 
+<div class="chg-legend">2026-11-20 新增：選角時玩家看到的能力摘要。</div>
+
+| <span class="chg">角色</span> | <span class="chg">風格</span> | <span class="chg">能力</span> |
+| --- | --- | --- |
+| <span class="chg">[王家豪](#王家豪-60-歲-長子)</span> | <span class="chg">抗打</span> | <span class="chg">忍到最後：被陷害效果減半，每被陷害一次最終審判 +10</span> |
+| <span class="chg">[王美玲](#王美玲-57-歲-長女)</span> | <span class="chg">防守</span> | <span class="chg">Excel：每天查看一名玩家的背包，可沒收陷害道具</span> |
+| <span class="chg">[王琪琪](#王琪琪-26-歲-孫女-代替母親・次女)</span> | <span class="chg">爆發得分</span> | <span class="chg">開直播：一局 3 次，當天送禮分數 ×1.5（扣分也是）</span> |
+| <span class="chg">[王冠宇](#王冠宇-29-歲-孫子-代替父親・次子)</span> | <span class="chg">操控排行榜</span> | <span class="chg">A 輪投資：一局 2 次，向一名玩家借 10 分，三天後還 15</span> |
+| <span class="chg">[王安然](#王安然-24-歲-孫女-代替父親・三子)</span> | <span class="chg">穩定得分</span> | <span class="chg">職業病：看得到爺爺精確的 HP，每天偷看一項喜好</span> |
+
 ### 王家豪｜60 歲｜長子
 
 - **三個關鍵字**：愚孝、懦弱、笑裡藏刀

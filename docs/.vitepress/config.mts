@@ -39,7 +39,8 @@ export default withMermaid(defineConfig({
                   text: '道具',
                   items: [
                     { text: '數值效果', link: '/1-preproduction/content/items/stats' },
-                    { text: '送禮反應', link: '/1-preproduction/content/items/reactions' }
+                    { text: '送禮反應', link: '/1-preproduction/content/items/reactions' },
+                    { text: '陷害道具（新）', link: '/1-preproduction/content/items/traps' }
                   ]
                 },
                 {

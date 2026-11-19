@@ -41,7 +41,10 @@ features:
 | --- | --- |
 | <span class="chg">2026-11-19</span> | <span class="chg">取消固定的病房時段，探索 50 秒內隨時可以送禮，每天最多 2 次</span> |
 | <span class="chg">2026-11-19</span> | <span class="chg">UI 加入病房監視器與上方對話框；對話框不顯示是誰送的，最終審判才公開</span> |
-| <span class="chg">2026-11-19</span> | <span class="chg">送禮分數只用數字顯示給本人；律師登記改到每天結算時念</span> |
+| <span class="chg">2026-11-19</span> | <span class="chg">律師登記改到每天結算時念</span> |
+| <span class="chg">2026-11-20</span> | <span class="chg">UI 加入即時排行榜；監視器裡送禮的人改為統一造型</span> |
+| <span class="chg">2026-11-20</span> | <span class="chg">新增陷害道具：暗中登記，小陷害每天結算開獎、大陷害最終審判開獎；秘密道具也改成暗中登記</span> |
+| <span class="chg">2026-11-20</span> | <span class="chg">角色能力改成「衝第一」或「防陷害」的不同風格；家豪改為「忍到最後」，美玲可沒收陷害道具</span> |
 | 2026-11-13 | 改用 WASD 自由移動 |
 | 2026-11-13 | 一般道具確定 28 件 |
 | 2026-11-13 | 角色池制度，每人選一個角色 |
