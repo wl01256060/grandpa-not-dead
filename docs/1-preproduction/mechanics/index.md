@@ -2,6 +2,8 @@
 
 所有數值都是提案，待遊測調整。
 
+<span class="chg">整體流程的圖解見 [遊戲流程圖](../flow)。</span>
+
 <div class="chg-legend">2026-11-19～20 改動：<span class="chg">黃底</span> 是新增或修改，<del class="rm">紅色刪除線</del> 是移除。</div>
 
 ## 基本架構

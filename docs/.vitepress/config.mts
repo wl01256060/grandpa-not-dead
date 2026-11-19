@@ -30,6 +30,7 @@ export default withMermaid(defineConfig({
             { text: '世界觀', link: '/1-preproduction/world/' },
             { text: '角色設定', link: '/1-preproduction/world/characters' },
             { text: '遊戲機制規格', link: '/1-preproduction/mechanics/' },
+            { text: '遊戲流程圖（新）', link: '/1-preproduction/flow' },
             {
               text: '內容庫',
               link: '/1-preproduction/content/',

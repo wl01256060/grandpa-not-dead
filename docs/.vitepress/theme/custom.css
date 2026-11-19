@@ -23,6 +23,12 @@
   text-decoration-thickness: 2px;
 }
 
+/* Mermaid 量文字高度時用 1.5 倍行高，VitePress 的段落樣式會把它撐高，最後一行被切掉 */
+.vp-doc .mermaid p {
+  line-height: 1.5;
+  margin: 0;
+}
+
 .vp-doc .chg-legend {
   font-size: 14px;
   border-left: 4px solid var(--chg-fg);
