@@ -18,17 +18,51 @@
 
 #### 三種性格
 
-每局抽一種，一局固定。開場會公開性格的語氣，但喜歡和討厭的分類要玩家自己猜。喜愛分類的道具孝心 +15，厭惡分類 −15。
+<del class="rm">每局抽一種，一局固定。開場會公開性格的語氣，但喜歡和討厭的分類要玩家自己猜。喜愛分類的道具孝心 +15，厭惡分類 −15。</del>
 
-| 性格 | 喜愛 | 厭惡 | 語氣 |
+<span class="chg">每局抽一種，一局固定。<strong>性格只決定爺爺說話的語氣和台詞，不影響分數。</strong>玩家要猜的是爺爺的 <a href="#爺爺的心願">心願</a>（2026-11-20 改動）。</span>
+
+| 性格 | <del class="rm">喜愛</del> | <del class="rm">厭惡</del> | 語氣 |
 | --- | --- | --- | --- |
-| 暴躁 | 照護、懷舊 | 惡作劇 | 大聲、愛罵、嫌孫子吵 |
-| 愛面子 | 奢侈 | 廉價 | 語氣輕飄、愛講排場 |
-| 腹黑 | 秘密 | 照護、廉價 | 小聲、笑中帶刺，每句話都有後文 |
+| 暴躁 | <del class="rm">照護、懷舊</del> | <del class="rm">惡作劇</del> | 大聲、愛罵、嫌孫子吵 |
+| 愛面子 | <del class="rm">奢侈</del> | <del class="rm">廉價</del> | 語氣輕飄、愛講排場 |
+| 腹黑 | <del class="rm">秘密</del> | <del class="rm">照護、廉價</del> | 小聲、笑中帶刺，每句話都有後文 |
 
-::: warning 待確認
-腹黑的厭惡分類是提案值，需要企劃確認。
-:::
+<span class="chg">改成只管語氣後，三種性格不再有強弱之分，原本「腹黑局猜中喜好幾乎沒有回報」的問題也一起消失。</span>
+
+#### 爺爺的心願
+
+<div class="chg-legend">本節為 2026-11-20 新增，數值都是提案，待遊測調整。</div>
+
+<span class="chg">爺爺嘴上說誰來都可以，心裡其實有幾件想要的東西。玩家要從他的話裡猜出來。</span>
+
+- <span class="chg"><strong>每局 3 個</strong>：開局從心願池隨機抽，整局固定、不公開</span>
+  - <span class="chg"><strong>分類心願 2 個</strong>：送出該分類的道具，孝心 +15，可以重複拿</span>
+  - <span class="chg"><strong>道具心願 1 個</strong>：指定一件道具，送出時孝心 +30</span>
+- <span class="chg"><strong>沒有「討厭」</strong>：送了不在心願裡的東西只是沒加成；負分道具照原本的基礎值扣分</span>
+- <span class="chg"><strong>怎麼猜</strong>：</span>
+  - <span class="chg">開場獨白後，爺爺說一句跟心願有關的話</span>
+  - <span class="chg">每天開始時，爺爺從還沒被猜中的心願裡挑一個，講一句暗示</span>
+  - <span class="chg">有人第一次猜中某個心願時，爺爺說一句特別台詞，例如「……這個，我想了很久。」大家看到排行榜跳分，就會開始猜那個人送了什麼</span>
+- <span class="chg"><strong>每局不同</strong>：心願每局重抽，上一局猜到的答案下一局不一定適用，也比較不怕攻略劇透</span>
+
+<span class="chg"><strong>心願池（提案）</strong>：暗示台詞每句依三種性格的語氣各寫一版，下表是暴躁版。</span>
+
+| <span class="chg">種類</span> | <span class="chg">心願</span> | <span class="chg">加成</span> | <span class="chg">暗示台詞（暴躁）</span> |
+| --- | --- | --- | --- |
+| <span class="chg">分類</span> | <span class="chg">照護</span> | <span class="chg">+15</span> | <span class="chg">「這把老骨頭，你們誰管過？」</span> |
+| <span class="chg">分類</span> | <span class="chg">懷舊</span> | <span class="chg">+15</span> | <span class="chg">「以前的日子，比現在好多了！」</span> |
+| <span class="chg">分類</span> | <span class="chg">奢侈</span> | <span class="chg">+15</span> | <span class="chg">「我這輩子什麼都要最好的，死也一樣！」</span> |
+| <span class="chg">分類</span> | <span class="chg">廉價</span> | <span class="chg">+15</span> | <span class="chg">「錢要花在刀口上，懂不懂！」</span> |
+| <span class="chg">分類</span> | <span class="chg">惡作劇</span> | <span class="chg">+30</span> | <span class="chg">「好久沒人敢跟我開玩笑了。」</span> |
+| <span class="chg">分類</span> | <span class="chg">秘密</span> | <span class="chg">+15</span> | <span class="chg">「這個家誰在背後搞什麼，我都要知道！」</span> |
+| <span class="chg">道具</span> | <span class="chg">I14 老伴的雞湯</span> | <span class="chg">+30</span> | <span class="chg">「好想再喝一次那個味道……」</span> |
+| <span class="chg">道具</span> | <span class="chg">I03 老照片</span> | <span class="chg">+30</span> | <span class="chg">「那張照片，到底收去哪了？」</span> |
+| <span class="chg">道具</span> | <span class="chg">I21 麻將牌</span> | <span class="chg">+30</span> | <span class="chg">「好久沒摸牌了，手好癢！」</span> |
+| <span class="chg">道具</span> | <span class="chg">I26 舊相機</span> | <span class="chg">+30</span> | <span class="chg">「第一塊地動土那天，有人拍了照。」</span> |
+| <span class="chg">道具</span> | <span class="chg">I27 米缸現金</span> | <span class="chg">+30</span> | <span class="chg">「我藏的東西，你們找不到的！」</span> |
+
+<span class="chg">惡作劇道具的基礎孝心都是負的，所以惡作劇心願加 +30，送了才會變成正分。</span>
 
 #### 表情
 
